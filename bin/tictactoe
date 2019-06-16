@@ -9,7 +9,7 @@ def start
           2 players = Player 1 vs Player 2"
   user_input = gets.strip
   if user_input == 0 
-    Game.new(
+    Game.new(Players::Computer.new(x)
 
 end
 
