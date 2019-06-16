@@ -5,10 +5,5 @@ module Players
       gets
     end
     
-    
-    
-    
-    
-    
   end
 end
