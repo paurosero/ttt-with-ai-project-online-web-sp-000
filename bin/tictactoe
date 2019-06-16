@@ -7,7 +7,9 @@ def start
           0 players = Computer vs Computer
           1 player  = Player 1 vs Computer
           2 players = Player 1 vs Player 2"
-  
+  user_input = gets.strip
+  if user_input == 0 
+    Game.new(
 
 end
 
