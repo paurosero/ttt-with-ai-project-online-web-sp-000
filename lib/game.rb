@@ -54,6 +54,5 @@ class Game
     end
   end
   
-  
 end
 
