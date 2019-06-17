@@ -18,8 +18,9 @@ def start
         Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
       end
   elsif user_input == "2"
-    
+        Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
   end
+  puts "Do you want to play again?"
 end
 
-
+start until gets.strip == "n" || gets.strip == "N"
